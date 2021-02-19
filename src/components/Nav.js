@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-export default function Nav({ onClose = () => {} }) {
+export default function Nav({ onClose = () => { } }) {
   return (
     <nav id="menu">
       <div className="inner">

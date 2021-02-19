@@ -46,11 +46,12 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Phantom' },
+                { name: 'description', content: 'UVA Olympics' },
                 { name: 'keywords', content: 'site, web' },
               ]}
             >
               <html lang="en" />
+              {/* <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script> */}
             </Helmet>
             <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>
               <div id="wrapper">
