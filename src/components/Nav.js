@@ -1,4 +1,5 @@
 import React from 'react';
+import { Chrono } from 'react-chrono';
 import { Link } from 'gatsby';
 
 export default function Nav({ onClose = () => { } }) {
@@ -11,10 +12,7 @@ export default function Nav({ onClose = () => { } }) {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/Generic">Generic Page</Link>
-          </li>
-          <li>
-            <Link to="/Elements">Elements</Link>
+            <Link to="/Events">Events</Link>
           </li>
         </ul>
       </div>

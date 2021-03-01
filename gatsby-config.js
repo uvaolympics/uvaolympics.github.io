@@ -6,6 +6,7 @@ module.exports = {
     title: config.siteTitle,
   },
   plugins: [
+    'gatsby-plugin-anchor-links',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,

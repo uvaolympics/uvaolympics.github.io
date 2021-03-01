@@ -1,0 +1,48 @@
+.events-page {
+  .event-listings {
+    .event-details {
+      display: flex;
+      margin-bottom: 50px;
+      @media screen and (max-width: 800px) {
+        display: block;
+      }
+      .event-content {
+        display: flex;
+        align-items: center;
+        padding-right: 30px;
+        flex: 2;
+        .datetime {
+          @media screen and (max-width: 900px) {
+            float: none;
+          }
+          float: left;
+        }
+        .location {
+          @media screen and (max-width: 900px) {
+            float: none;
+          }
+          float: right;
+        }
+        .clearfix {
+          clear: both;
+        }
+      }
+      .event-image {
+        display: flex;
+        height: inherit;
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+        // margin-bottom: 50px;
+        flex: 1;
+        img {
+          max-height: 100%;
+          max-width: 100%;
+          @media screen and (max-width: 800px) {
+            max-width: 80%;
+          }
+        }
+      }
+    }
+  }
+}

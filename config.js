@@ -18,14 +18,14 @@ module.exports = {
     //   url: 'https://github.com/anubhavsrivastava',
     // },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/dylankfernandes',
-    },
-    {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/dylankfernandes',
+      url: 'https://www.facebook.com/UniversityOlympics',
+    },
+    {
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://instagram.com/university_olympics',
     },
     {
       icon: 'fa-youtube',
