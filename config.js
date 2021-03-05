@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/olympics-logo.png',
+  manifestIcon: 'src/assets/images/olympics-logo.png',
   // pathPrefix: `/gatsby-starter-phantom/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'UVA Olympics',
   subHeading: 'Get involved with a new UVA tradition',
