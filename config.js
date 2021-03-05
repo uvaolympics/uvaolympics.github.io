@@ -30,7 +30,7 @@ module.exports = {
     {
       icon: 'fa-youtube',
       name: 'YouTube',
-      url: 'https://youtube.com/university_olympics',
+      url: 'https://youtube.com/channel/UCUJT5T7SPWuvxJ6WoZWo4FQ',
     },
     {
       icon: 'fa-twitch',
