@@ -191,7 +191,7 @@ const EventsPage = () => (
             {eventDetails.virtual.map(event => {
               const { id, name, datetime, details, image } = event;
               return (
-                <div className="event-details">
+                <div id={id} className="event-details">
                   <div className="event-content">
                     <div>
                       <h2>{name}</h2>

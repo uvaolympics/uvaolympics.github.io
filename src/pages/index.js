@@ -124,12 +124,6 @@ const IndexPage = () => (
               image={tennis}
               styleId={4} />
             <EventCard
-              title="Eating Contest"
-              description="Read more here"
-              link="/Events#eatingcontest"
-              image={food}
-              styleId={5} />
-            <EventCard
               title="Cornhole"
               description="Read more here"
               link="/Events#cornhole"
@@ -150,6 +144,12 @@ const IndexPage = () => (
               link="/Events#trivia"
               image={trivia}
               styleId={1} />
+            <EventCard
+              title="Eating Contest"
+              description="Read more here"
+              link="/Events#eatingcontest"
+              image={food}
+              styleId={5} />
             <EventCard
               title="Chess"
               description="Read more here"
