@@ -5,7 +5,13 @@ export default function Footer() {
   return (
     <footer id="footer">
       <div className="inner">
-        <ContactForm />
+        <section>
+          <h2>Get in touch</h2>
+          <p>
+            To contact us, get in touch with our president, Carly Wardius.
+            You can email her at <a href="mailto: cjw2jax@virginia.edu?subject=Olympics">cjw2jax@virginia.edu</a>
+          </p>
+        </section>
         <section>
           <h2>Follow</h2>
           <ul className="icons">

@@ -18,24 +18,24 @@ module.exports = {
     //   url: 'https://github.com/anubhavsrivastava',
     // },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/dylankfernandes',
-    },
-    {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/dylankfernandes',
+      url: 'https://www.facebook.com/UniversityOlympics',
+    },
+    {
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://instagram.com/university_olympics',
     },
     {
       icon: 'fa-youtube',
       name: 'YouTube',
-      url: 'https://youtube.com/dylankfernandes',
+      url: 'https://youtube.com/university_olympics',
     },
     {
       icon: 'fa-twitch',
       name: 'Twitch',
-      url: 'https://twitch.com/thechocolatebean',
+      url: 'https://twitch.com/university_olympics',
     },
   ],
 };
