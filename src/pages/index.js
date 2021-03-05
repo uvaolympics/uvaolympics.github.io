@@ -39,7 +39,7 @@ const IndexPage = () => (
               <p>
                 This year, we're dedicated to hosting the first UVA Olympics hybrid style.
                 We'll be hosting virtual competitions like Chess, Trivia, and Esports and traditional sports
-                like Soccer, basketball, beach volleyball, eating competitions, and tennis. There's something
+                like Soccer, Basketball, Beach Volleyball, Eating Competitions, and Tennis. There's something
                 for everyone. If you're interested, register down below <strong>by March 9th, 2021.</strong>
               </p>
               <a href="https://forms.gle/PdteRewBqJyLtLyy9" className="button primary">Register</a>
