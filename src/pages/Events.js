@@ -24,7 +24,7 @@ const eventDetails = {
       name: 'Volleyball',
       id: 'volleyball',
       image: volleyball,
-      datetime: 'March 13th from 1pm - 4pm',
+      datetime: 'March 13th from 2pm - 3pm',
       location: 'Sand Courts by No Name Field',
       details: `
       Volleyball will be played on the sand courts by No Name Field. Bring your friends to 
@@ -37,8 +37,8 @@ const eventDetails = {
       name: 'Cornhole',
       id: 'cornhole',
       image: cornhole,
-      datetime: 'March 13th from 1pm - 4pm',
-      location: 'TBD',
+      datetime: 'March 13th from 2pm - 3pm',
+      location: 'Next to the Sand Courts by No Name Fields',
       details: `
       Sign up at the introduction table to be placed in a bracket to 
       play other champions. Bring a teammate or we will pair you with 
@@ -53,7 +53,7 @@ const eventDetails = {
       name: 'Tennis',
       id: 'tennis',
       image: tennis,
-      datetime: 'March 13th from 1pm - 4pm',
+      datetime: 'March 13th from 2pm - 3pm',
       location: 'Tennis Courts by No Name Field',
       details: `
       Join your competitors on the tennis courts next to No Name Field. 
@@ -68,7 +68,7 @@ const eventDetails = {
       id: 'spikeball',
       image: spikeball,
       datetime: 'March 13th from 1pm - 4pm',
-      location: "TBD",
+      location: "Carr's Field",
       details: `
        Sign up at the introduction table to be placed in a bracket to
         play other champions. Bring a teammate or we will pair you with 
@@ -92,13 +92,10 @@ const eventDetails = {
       name: 'Basketball',
       id: 'basketball',
       image: basketball,
-      datetime: 'March 13th from 2pm - 4pm',
+      datetime: 'March 13th from 3pm - 4pm',
       location: 'Courts Next to Dell Pond',
       details: `
-      Basketball will be played on the courts next to Dell Pond. Come with a team of 3, 
-      or we will assign you a team. You will be entered into brackets to determine 
-      a champion! We will supply equipment. All rules abide by college 
-      regulations; if there are any safety concerns, please reference our safety conduct.
+      Due to COVID-19 restrictions, we are postponing basketball tournaments to a later date.
     `
     },
   ],
@@ -126,14 +123,14 @@ const eventDetails = {
       id: 'esports',
       image: esports,
       datetime: 'March 12th at 9pm',
-      details: `TBD`
+      details: `This year we will offer Among Us virtually, and the event will be live streamed on Twitch for viewers to watch. We will be giving out points based on how many tasks one completes, if the imposters win, or if the crew members win. With this system, you get 4pts for a win (be it Imposter or Crewmate) and 0 for a loss. On top of that Imposters get 2 points for each kill while Crewmates get one for the correct vote. It’s important to note however that Crewmates also lose 2 points for every incorrect vote. Moreover, death has no effect on the potential score of a player. So, even a dead Crewmate’s correct vote earlier will earn him/her points at the end of a game. `
     },
     {
       name: 'Eating Contest',
       id: 'eatingcontest',
       image: food,
-      datetime: 'March 14th, TBD',
-      details: `TBD`
+      datetime: 'March 14th at 2pm',
+      details: `This year, we will be delivering big marshmallows in covid safe bags to the participants who live in Charlottesville. Then, everyone will join a zoom call and we will compete to see who can eat the most marshmallows the fastest. `
     },
   ]
 }
@@ -192,7 +189,7 @@ const EventsPage = () => (
             })}
             <h1>Virtual Events</h1>
             {eventDetails.virtual.map(event => {
-              const { name, datetime, details, image } = event;
+              const { id, name, datetime, details, image } = event;
               return (
                 <div className="event-details">
                   <div className="event-content">

@@ -23,7 +23,6 @@ import cornhole from '../assets/images/cornhole-resized.jpg';
 
 import config from '../../config';
 
-
 import EventCard from '../components/EventCard';
 
 const IndexPage = () => (
@@ -43,7 +42,7 @@ const IndexPage = () => (
                 like Soccer, basketball, beach volleyball, eating competitions, and tennis. There's something
                 for everyone. If you're interested, register down below <strong>by March 9th, 2021.</strong>
               </p>
-              <a href="/" className="button primary">Register</a>
+              <a href="https://forms.gle/PdteRewBqJyLtLyy9" className="button primary">Register</a>
               <Link to="/Events" className="button secondary">Events</Link>
               <p className="event-duration"><strong>March 12th - 14th, 2021</strong></p>
             </header>
@@ -165,13 +164,22 @@ const IndexPage = () => (
               styleId={3} />
           </section>
           <p>Interested in participating? Register down below or check out full events page.</p>
-          <a href="/" className="button primary">Register</a>
+          <a href="https://forms.gle/PdteRewBqJyLtLyy9" className="button primary">Register</a>
           <Link to="/Events" className="button secondary">Events</Link>
         </div>
         {/* Our commitment safety */}
         <div className="section-card">
           <h1>Our Commitment to Safety</h1>
-          <p>Insert details on safety regulations here.</p>
+          <p>
+            To do our part as members of the UVA community and prevent the spread of COVID-19, we
+            will have the following rules in place during our event.
+          </p>
+          <ul>
+            <li>We will require mask wearing at all times, and encourage double masking if possible. </li>
+            <li>We will offer hand sanitizer at the registration table after each participant picks up their shirt.</li>
+            <li>For basketball, soccer, and volleyball, all teams will be separated into 3 on 3 to abide by the 6 person limit.</li>
+            <li>Please sanitize all equipment after the match.</li>
+          </ul>
         </div>
         {/* Sponsors */}
         <div className="section-card">
@@ -192,12 +200,12 @@ const IndexPage = () => (
             <div className="sponsor-grid-card">
               <img src={imrec} alt="" />
               <p>UVA IM-Rec</p>
-              <a href="" className="button primary">IM-Rec Website</a>
+              <a href="https://recsports.virginia.edu/" className="button primary">IM-Rec Website</a>
             </div>
             <div className="sponsor-grid-card">
               <img src={upc} alt="" />
               <p>University Program Council</p>
-              <a href="" className="button primary">UPC Website</a>
+              <a href="https://universityprogramscouncil.squarespace.com/" className="button primary">UPC Website</a>
             </div>
           </div>
         </div>

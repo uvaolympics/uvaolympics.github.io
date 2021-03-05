@@ -30,12 +30,12 @@ module.exports = {
     {
       icon: 'fa-youtube',
       name: 'YouTube',
-      url: 'https://youtube.com/dylankfernandes',
+      url: 'https://youtube.com/university_olympics',
     },
     {
       icon: 'fa-twitch',
       name: 'Twitch',
-      url: 'https://twitch.com/thechocolatebean',
+      url: 'https://twitch.com/university_olympics',
     },
   ],
 };
